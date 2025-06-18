@@ -1,0 +1,12 @@
+numpy
+pandas
+python-dotenv
+tiktoken
+langchain
+langchain-openai
+langchain_core
+langchain_community
+langchain_chroma
+langgraph
+langgraph-swarm
+tavily-python

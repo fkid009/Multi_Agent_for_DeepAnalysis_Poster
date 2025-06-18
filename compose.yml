@@ -1,0 +1,12 @@
+version: "3.10"
+
+services:
+  jupyter:
+    build: .
+    container_name: jupyter_env
+    command: jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+    ports:
+      - "8888:8888"  # Jupyter
+      - "8501:8501"  # Streamlit (필요시 사용)
+    volumes:
+      - .:/workspace
