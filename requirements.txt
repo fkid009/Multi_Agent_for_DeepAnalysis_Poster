@@ -10,3 +10,4 @@ langchain_chroma
 langgraph
 langgraph-swarm
 tavily-python
+mistralai 
